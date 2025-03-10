@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "name": "妙蛙种子",
+    "nameEn": "Bulbasaur",
+    "types": ["grass", "poison"],
+    "generation": 1,
+    "sprite": "images/pokemon/1.png",
+    "abilities": ["Overgrow", "Chlorophyll"],
+    "stats": {
+      "hp": 45,
+      "attack": 49,
+      "defense": 49,
+      "spAttack": 65,
+      "spDefense": 65,
+      "speed": 45
+    }
+  },
+  {
+    "id": 4,
+    "name": "小火龙",
+    "nameEn": "Charmander",
+    "types": ["fire"],
+    "generation": 1,
+    "sprite": "images/pokemon/4.png",
+    "abilities": ["Blaze", "Solar Power"],
+    "stats": {
+      "hp": 39,
+      "attack": 52,
+      "defense": 43,
+      "spAttack": 60,
+      "spDefense": 50,
+      "speed": 65
+    }
+  },
+  {
+    "id": 7,
+    "name": "杰尼龟",
+    "nameEn": "Squirtle",
+    "types": ["water"],
+    "generation": 1,
+    "sprite": "images/pokemon/7.png",
+    "abilities": ["Torrent", "Rain Dish"],
+    "stats": {
+      "hp": 44,
+      "attack": 48,
+      "defense": 65,
+      "spAttack": 50,
+      "spDefense": 64,
+      "speed": 43
+    }
+  },
+  {
+    "id": 25,
+    "name": "皮卡丘",
+    "nameEn": "Pikachu",
+    "types": ["electric"],
+    "generation": 1,
+    "sprite": "images/pokemon/25.png",
+    "abilities": ["Static", "Lightning Rod"],
+    "stats": {
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "spAttack": 50,
+      "spDefense": 50,
+      "speed": 90
+    }
+  },
+  {
+    "id": 94,
+    "name": "耿鬼",
+    "nameEn": "Gengar",
+    "types": ["ghost", "poison"],
+    "generation": 1,
+    "sprite": "images/pokemon/94.png",
+    "abilities": ["Cursed Body", "Levitate"],
+    "stats": {
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "spAttack": 130,
+      "spDefense": 75,
+      "speed": 110
+    }
+  },
+  {
+    "id": 149,
+    "name": "快龙",
+    "nameEn": "Dragonite",
+    "types": ["dragon", "flying"],
+    "generation": 1,
+    "sprite": "images/pokemon/149.png",
+    "abilities": ["Inner Focus", "Multiscale"],
+    "stats": {
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "spAttack": 100,
+      "spDefense": 100,
+      "speed": 80
+    }
+  }
+]

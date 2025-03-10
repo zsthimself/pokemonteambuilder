@@ -1,0 +1,263 @@
+/* Pokemon Theme CSS - Visual Enhancements */
+
+/* Global Theme Styles */
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="25" fill="%23ffffff" opacity="0.05"/></svg>');
+    background-size: 100px 100px;
+}
+
+/* Header Styling */
+header.bg-dark {
+    background: linear-gradient(135deg, #e53935 0%, #d32f2f 100%) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-bottom: 4px solid #b71c1c;
+}
+
+header h1 {
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+}
+
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Headers */
+.card-header.bg-primary {
+    background: linear-gradient(135deg, #3f51b5 0%, #303f9f 100%) !important;
+    border-bottom: none;
+    padding: 15px 20px;
+}
+
+.card-header.bg-success {
+    background: linear-gradient(135deg, #43a047 0%, #2e7d32 100%) !important;
+    border-bottom: none;
+    padding: 15px 20px;
+}
+
+.card-header.bg-info {
+    background: linear-gradient(135deg, #039be5 0%, #0277bd 100%) !important;
+    border-bottom: none;
+    padding: 15px 20px;
+}
+
+.card-header.bg-warning {
+    background: linear-gradient(135deg, #ffb300 0%, #ffa000 100%) !important;
+    border-bottom: none;
+    padding: 15px 20px;
+    color: white;
+}
+
+/* Pokemon Card Enhanced Styling */
+.pokemon-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(to bottom, #ffffff 0%, #f9f9f9 100%);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.pokemon-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.pokemon-card img {
+    transition: transform 0.5s;
+    padding: 8px;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.pokemon-card:hover img {
+    transform: scale(1.1);
+}
+
+.pokemon-card .pokemon-name {
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 10px 0 5px;
+}
+
+/* Team Slot Enhanced Styling */
+.team-slot {
+    border: 2px dashed #bbb;
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    transition: all 0.3s ease;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.team-slot:hover {
+    border-color: #999;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.team-slot.filled {
+    border: 2px solid #43a047;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.empty-slot-icon {
+    color: #bbb;
+    font-size: 28px;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+
+.team-slot:hover .empty-slot-icon {
+    color: #999;
+}
+
+/* Button Styling */
+.btn-primary {
+    background: linear-gradient(135deg, #3f51b5 0%, #303f9f 100%);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #303f9f 0%, #1a237e 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #43a047 0%, #2e7d32 100%);
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.btn-success:hover {
+    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.btn-outline-danger {
+    border: 2px solid #e53935;
+    color: #e53935;
+    transition: all 0.3s;
+}
+
+.btn-outline-danger:hover {
+    background-color: #e53935;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styling */
+footer.bg-dark {
+    background: linear-gradient(135deg, #424242 0%, #212121 100%) !important;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Loading Indicator */
+.loading-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    backdrop-filter: blur(5px);
+}
+
+.pokeball-loader {
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    border: 3px solid #333;
+    animation: shake 1.5s ease-in-out infinite;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pokeball-loader:before {
+    content: '';
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 0;
+}
+
+.pokeball-loader:after {
+    content: '';
+    position: absolute;
+    background-color: #fff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #333;
+    z-index: 5;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    20% { transform: translate(-10px, 0) rotate(-20deg); }
+    30% { transform: translate(10px, 0) rotate(20deg); }
+    50% { transform: translate(-10px, 0) rotate(-10deg); }
+    60% { transform: translate(10px, 0) rotate(10deg); }
+    100% { transform: translate(0, 0) rotate(0); }
+}
+
+/* Type Badge Enhancements */
+.type-badge {
+    font-size: 0.75rem;
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
