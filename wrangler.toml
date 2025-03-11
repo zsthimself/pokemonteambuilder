@@ -1,0 +1,19 @@
+name = "pokemon-team-planner"
+type = "webpack"
+account_id = ""
+workers_dev = true
+
+[site]
+bucket = "./"
+entry-point = "workers-site/index.js"
+
+[build]
+command = "npm install && npm run build"
+publish = "public"
+
+[build.upload]
+format = "service-worker"
+
+[site.static]
+include = ["**/*"]
+exclude = ["node_modules/**/*", ".git/**/*"]
