@@ -8,3 +8,7 @@ bucket = "./"
 
 [build]
 command = "npm install && npm run build"
+
+[site.static]
+include = ["**/*"]
+exclude = ["node_modules/**/*", ".git/**/*"]
