@@ -1,4 +1,4 @@
-# Pokemon Team Planner
+# Pokemon Team Builder
 
 A web-based tool to help Pokemon players build, analyze, and optimize their battle teams.
 
