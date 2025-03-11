@@ -1,4 +1,4 @@
-name = "pokemon-team-planner"
+name = "pokemonteambuilder"
 workers_dev = true
 compatibility_date = "2025-03-11"
 main = "workers-site/index.js"
@@ -8,7 +8,3 @@ bucket = "./"
 
 [build]
 command = "npm install && npm run build"
-
-[site.static]
-include = ["**/*"]
-exclude = ["node_modules/**/*", ".git/**/*"]
