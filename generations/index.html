@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Generations - Pokemon Team Builder</title>
+    <meta name="description" content="Explore different Pokemon generations and build teams based on your favorite era.">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/type-analysis.css">
+    <link rel="stylesheet" href="../css/pokemon-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Pokemon Generations</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="typesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Types</a>
+                                    <ul class="dropdown-menu" aria-labelledby="typesDropdown">
+                                        <li><a class="dropdown-item" href="../types/fire.html">Fire</a></li>
+                                        <li><a class="dropdown-item" href="../types/water.html">Water</a></li>
+                                        <li><a class="dropdown-item" href="../types/grass.html">Grass</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="generationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Generations</a>
+                                    <ul class="dropdown-menu" aria-labelledby="generationsDropdown">
+                                        <li><a class="dropdown-item" href="gen1.html">Generation I</a></li>
+                                        <li><a class="dropdown-item" href="gen2.html">Generation II</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <div class="row">
+            <div class="col-12">
+                <h2>Pokemon Generations</h2>
+                <p class="lead">Each Pokemon generation introduces new Pokemon, regions, and gameplay mechanics. Explore different generations to build the perfect team.</p>
+                
+                <div class="row row-cols-1 row-cols-md-2 g-4 mt-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-header bg-danger text-white">
+                                <h3 class="h5 mb-0">Generation I</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>The original 151 Pokemon from the Kanto region, including classics like Pikachu, Charizard, and Mewtwo.</p>
+                                <a href="gen1.html" class="btn btn-outline-danger">Explore Gen I</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <div class="card-header bg-primary text-white">
+                                <h3 class="h5 mb-0">Generation II</h3>
+                            </div>
+                            <div class="card-body">
+                                <p>The Johto region Pokemon, introducing 100 new species and features like breeding and day/night cycles.</p>
+                                <a href="gen2.html" class="btn btn-outline-primary">Explore Gen II</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="h5">Pokemon Team Builder</h3>
+                    <p>Build and analyze your perfect Pokemon team with our comprehensive team building tools.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h6">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../guide.html" class="text-white">Guide</a></li>
+                        <li><a href="../blog.html" class="text-white">Blog</a></li>
+                        <li><a href="../how-it-works.html" class="text-white">How it works</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h6">Resources</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="../types/index.html" class="text-white">Pokemon Types</a></li>
+                        <li><a href="index.html" class="text-white">Generations</a></li>
+                        <li><a href="../games/index.html" class="text-white">Games</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
