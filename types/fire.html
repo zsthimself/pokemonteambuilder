@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fire Type Pokemon Team Builder - Best Fire Pokemon Teams</title>
+    <meta name="description" content="Build the perfect Fire-type Pokemon team. Find the strongest Fire Pokemon, analyze their strengths and weaknesses, and create powerful team combinations.">
+    <meta name="keywords" content="Fire Pokemon, Fire type, Pokemon team builder, Charizard, Fire Pokemon strategy">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/type-analysis.css">
+    <link rel="stylesheet" href="/css/pokemon-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Fire Type Pokemon Team Builder</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="typesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Types</a>
+                                    <ul class="dropdown-menu" aria-labelledby="typesDropdown">
+                                        <li><a class="dropdown-item active" href="/types/fire.html">Fire</a></li>
+                                        <li><a class="dropdown-item" href="/types/water.html">Water</a></li>
+                                        <li><a class="dropdown-item" href="/types/grass.html">Grass</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>Fire Type Pokemon Team Building Guide</h2>
+                <p class="lead">Fire-type Pokemon are known for their powerful offensive capabilities and can be devastating attackers in any team. Learn how to build a strong Fire-type team and counter their weaknesses effectively.</p>
+                
+                <section class="mb-5">
+                    <h3>Popular Fire Type Pokemon</h3>
+                    <div class="row row-cols-2 row-cols-md-3 g-4" id="fire-pokemon-list">
+                        <!-- Pokemon cards will be dynamically loaded here -->
+                    </div>
+                </section>
+
+                <section class="mb-5">
+                    <h3>Fire Type Strengths & Weaknesses</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Strong Against:</h4>
+                            <div class="type-badges mb-3">
+                                <span class="type-badge bg-success">Grass</span>
+                                <span class="type-badge bg-light text-dark">Ice</span>
+                                <span class="type-badge bg-success">Bug</span>
+                                <span class="type-badge bg-secondary">Steel</span>
+                            </div>
+                            
+                            <h4>Weak Against:</h4>
+                            <div class="type-badges">
+                                <span class="type-badge bg-primary">Water</span>
+                                <span class="type-badge bg-warning text-dark">Rock</span>
+                                <span class="type-badge bg-danger">Ground</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header bg-danger text-white">
+                        <h3 class="h5 mb-0">Fire Type Team Builder</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="team-builder">
+                            <!-- Team builder interface will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h3 class="h5 mb-0">Team Analysis</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="team-analysis">
+                            <!-- Team analysis will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="h5">Pokemon Team Builder</h3>
+                    <p>Build and analyze your perfect Fire-type Pokemon team with our comprehensive team building tools.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h6">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/guide.html" class="text-white">Guide</a></li>
+                        <li><a href="/blog.html" class="text-white">Blog</a></li>
+                        <li><a href="/how-it-works.html" class="text-white">How it works</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h6">Resources</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/types/index.html" class="text-white">Pokemon Types</a></li>
+                        <li><a href="/generations/index.html" class="text-white">Generations</a></li>
+                        <li><a href="/games/index.html" class="text-white">Games</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/type-analysis.js"></script>
+    <script src="/js/team-builder.js"></script>
+</body>
+</html>

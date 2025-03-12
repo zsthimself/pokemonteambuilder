@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generation I Pokemon Team Builder - Red, Blue & Yellow</title>
+    <meta name="description" content="Build the perfect team with Generation I Pokemon from Red, Blue and Yellow versions. Find the strongest Kanto Pokemon and create powerful team combinations.">
+    <meta name="keywords" content="Generation I Pokemon, Kanto Pokemon, Red Blue Yellow, Pokemon team builder, Charizard, Blastoise, Venusaur">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/type-analysis.css">
+    <link rel="stylesheet" href="/css/pokemon-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1>Generation I Pokemon Team Builder</h1>
+                </div>
+                <div class="col-md-6">
+                    <nav class="navbar navbar-expand-lg navbar-dark">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/index.html">Home</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle active" href="#" id="generationsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Generations</a>
+                                    <ul class="dropdown-menu" aria-labelledby="generationsDropdown">
+                                        <li><a class="dropdown-item active" href="/generations/gen1.html">Generation I</a></li>
+                                        <li><a class="dropdown-item" href="/generations/gen2.html">Generation II</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="container py-4">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2>Generation I Pokemon Team Building Guide</h2>
+                <p class="lead">The original 151 Pokemon from Kanto region offer a classic team building experience. Learn how to build a strong Generation I team with these iconic Pokemon.</p>
+                
+                <section class="mb-5">
+                    <h3>Popular Generation I Pokemon</h3>
+                    <div class="row row-cols-2 row-cols-md-3 g-4" id="gen1-pokemon-list">
+                        <!-- Pokemon cards will be dynamically loaded here -->
+                    </div>
+                </section>
+
+                <section class="mb-5">
+                    <h3>Generation I Metagame Analysis</h3>
+                    <div class="card">
+                        <div class="card-body">
+                            <p>The Generation I metagame is dominated by Psychic-type Pokemon due to their lack of effective counters. Only Ghost and Bug types are supposed to be super effective against Psychic, but due to a programming error, Ghost-type moves have no effect on Psychic types. Additionally, the only strong Bug-type move is Twineedle, which isn't very powerful.</p>
+                            
+                            <p>Key Pokemon to consider for your Generation I team:</p>
+                            <ul>
+                                <li><strong>Alakazam</strong> - Incredible Special stat and Speed make it a top-tier threat</li>
+                                <li><strong>Chansey</strong> - Enormous HP and Special make it nearly impossible to take down</li>
+                                <li><strong>Exeggutor</strong> - Great Special stat and access to Sleep Powder and Explosion</li>
+                                <li><strong>Tauros</strong> - Excellent all-around stats and a powerful Normal-type STAB</li>
+                                <li><strong>Snorlax</strong> - Huge HP, good Special, and access to Rest and Body Slam</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="h5 mb-0">Generation I Team Builder</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="team-builder">
+                            <!-- Team builder interface will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-header bg-info text-white">
+                        <h3 class="h5 mb-0">Team Analysis</h3>
+                    </div>
+                    <div class="card-body">
+                        <div id="team-analysis">
+                            <!-- Team analysis will be loaded here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="h5">Pokemon Team Builder</h3>
+                    <p>Build and analyze your perfect Generation I Pokemon team with our comprehensive team building tools.</p>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h6">Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/guide.html" class="text-white">Guide</a></li>
+                        <li><a href="/blog.html" class="text-white">Blog</a></li>
+                        <li><a href="/how-it-works.html" class="text-white">How it works</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4 class="h6">Resources</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="/types/index.html" class="text-white">Pokemon Types</a></li>
+                        <li><a href="/generations/index.html" class="text-white">Generations</a></li>
+                        <li><a href="/games/index.html" class="text-white">Games</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+    <script src="/js/type-analysis.js"></script>
+    <script src="/js/team-builder.js"></script>
+</body>
+</html>
