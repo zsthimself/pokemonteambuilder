@@ -1,0 +1,13 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/types", "destination": "/types/index.html" },
+    { "source": "/generations", "destination": "/generations/index.html" },
+    { "source": "/games", "destination": "/games/index.html" }
+  ],
+  "redirects": [
+    { "source": "/generations/gen2.html", "destination": "/generations/gen1.html", "permanent": false },
+    { "source": "/games/sword-shield.html", "destination": "/games/scarlet-violet.html", "permanent": false }
+  ]
+}
